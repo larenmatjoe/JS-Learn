@@ -1,0 +1,34 @@
+
+#Javascript 
+
+
+Data types:
+undefined, null, boolean, string, symbol, number and object 
+
+variable declaration:
+
+var a = "text"; #data can be changed 
+let a = '2nd text'; #only can be used within the scope (local and global scope)
+const a = '1.22'; #data connot be changed
+
+";" is need on every line
+console.log(a) #prints the variable 'a'
+'=' is a assignment operator and different from '==' 
+variable and function name is case sensitive
+s = 1 #this will show error because variable 's' is not declared eg: 'var s' or 'var s = 2'
+concatination is possible
+incrementing the value in a variable eg var t = 10; ('t = t+1;' or 't++;') reverse way possible 't--;'
+a = a + 23; is same as a +=23; (reverse is also possible) same in the case of multipication and division
+escape a quote using '\' in front
+"``" can be used to escape (',",\,\\,\n,\r,\t,\b,\f,*****/)
+concatination can be performed using '+=' also variable eg: var t += var s;
+lenght of the string (var a ='efefe'; len = a.lenght;)
+indexing starts with '0' eg: o = a[0]; 
+a[0] = 'j' #it is not possible because it is immutable
+function starts with 'function <name>(<variables>) { <body>  }' #return can be used inside the <body>
+var list = ['h',34]; #creatng a list 
+nested list is possible and list is mutable 
+append a list using eg var a.push([1,12,32,3,4,2])
+remove a array using var a.pop(); #remove last element
+.shift() removes first element of a list
+.unshift() add element to the begining of a list
