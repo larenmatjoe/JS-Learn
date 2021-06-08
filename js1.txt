@@ -107,6 +107,15 @@ try {
 
 -------------------------------------------------------------------------------
 && = and
-|| = or
+|| = or#Traversing through list using for loop 
 
+for (var i in list) {
+<code>
+console.log(i);
+}
 
+#Traversing through string using for loop
+
+var a = 'hi how are you?'
+for (var i in a){      #var i will become the index number[0-..]  not the charaters 
+console.log(a[i]);}     like in list.
