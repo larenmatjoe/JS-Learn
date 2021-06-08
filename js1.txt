@@ -1,0 +1,112 @@
+# Functions
+
+#Example
+function <function-name> (<args>,<args>) {
+<body>;
+return <var>; # if needed
+}
+
+<function-name>(<args>,<args>); #calling function
+<Var>=<function-name>(<args>,<args>);
+
+#scope in fuction
+-Types:
+Global , local
+
+#note: "typeof <var>" returns the type of data in the variable
+creating a variable using "<name>;" is global variable and creating a variable using "let <name>;" is a 
+local variable that can be only be used within the scope
+"<name>;" only inside a function var<name>; inside afuntion is local variable
+
+#var s = JSON.stringify(<Variable>); #converts the data to string
+
+#Boolean value = true , false
+
+#Comparison operators
+== equality operator 
+=== strict equality operator
+#g:
+3 == 3 #true in both case
+3 === '3' #true in '==' and false in '==='
+-----------------------------------------------------------------------------
+Loops
+1. If:
+IF is used to execute a block of code based on a condition.
+
+Syntax
+if(condition){
+    // code
+}
+2. If-Else:
+Else part is used to execute the block of code when the condition fails.
+
+Syntax
+if(condition){
+    // code
+} else {
+    // code
+}
+3. Switch:
+Switch is used to replace nested If-Else statements.
+
+Syntax
+switch(condition){
+    case 'value1' :
+        //code
+        [break;]
+    case 'value2' :
+        //code
+        [break;]
+    .......
+    default :
+        //code
+        [break;]
+}
+4. For
+For loop is used to iterate a set of statements based on a condition.
+
+for(Initialization; Condition; Increment/decrement){  
+//code  
+} 
+5. While
+While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
+
+while (condition) {  
+  // code 
+}  
+6. Do-While
+Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
+
+do {  
+  // code 
+} while (condition); 
+Classes
+ES6 introduced classes along with OOPS concepts in JS. Class is similar to a function which you can think like kind of template which will get called when ever you initialize class.
+
+Syntax:
+class className {
+  constructor() { ... } //Mandatory Class method
+  method1() { ... }
+  method2() { ... }
+  ...
+}
+Example:
+class Mobile {
+  constructor(model) {
+    this.name = model;
+  }
+}
+
+mbl = new Mobile("iPhone");
+
+Try:
+
+try {
+  /* code */
+} catch (e) {}
+
+-------------------------------------------------------------------------------
+&& = and
+|| = or
+
+
